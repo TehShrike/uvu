@@ -1,7 +1,7 @@
-import { suite } from 'uvu';
+import { suite } from '@tehshrike/uvu';
 import { readdirSync } from 'fs';
 import { isAbsolute } from 'path';
-import * as assert from 'uvu/assert';
+import * as assert from '@tehshrike/uvu/assert';
 import * as $ from '../parse';
 
 const FILES = readdirSync(__dirname);

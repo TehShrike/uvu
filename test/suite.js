@@ -1,5 +1,5 @@
-import { suite } from 'uvu';
-import * as assert from 'uvu/assert';
+import { suite } from '@tehshrike/uvu';
+import * as assert from '@tehshrike/uvu/assert';
 
 const hooks = suite('hooks');
 

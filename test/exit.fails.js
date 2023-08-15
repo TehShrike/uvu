@@ -1,4 +1,4 @@
-import { test } from 'uvu';
+import { test } from '@tehshrike/uvu';
 
 // TODO: test.fail() modifier (see #47)
 

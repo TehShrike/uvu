@@ -1,5 +1,5 @@
-import { suite } from 'uvu';
-import * as assert from 'uvu/assert';
+import { suite } from '@tehshrike/uvu';
+import * as assert from '@tehshrike/uvu/assert';
 import * as $ from '../src/diff';
 
 const isNode8 = process.versions.node.startsWith('8.');
