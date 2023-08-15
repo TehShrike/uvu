@@ -38,7 +38,7 @@
 ## Install
 
 ```
-$ npm install --save-dev uvu
+$ npm install --save-dev @tehshrike/uvu
 ```
 
 
@@ -48,8 +48,8 @@ $ npm install --save-dev uvu
 
 ```js
 // tests/demo.js
-import { test } from 'uvu';
-import * as assert from 'uvu/assert';
+import { test } from '@tehshrike/uvu';
+import * as assert from '@tehshrike/uvu/assert';
 
 test('Math.sqrt()', () => {
   assert.is(Math.sqrt(4), 2);
