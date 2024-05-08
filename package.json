@@ -1,6 +1,6 @@
 {
   "name": "@tehshrike/uvu",
-  "version": "0.5.7",
+  "version": "1.0.0",
   "repository": "tehshrike/uvu",
   "description": "uvu is an extremely fast and lightweight test runner for Node.js and the browser",
   "module": "dist/index.mjs",
